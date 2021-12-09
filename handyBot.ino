@@ -24,15 +24,15 @@ Tecnologias utilizadas :
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "JACIEL";
-const char* password = "a1s2d3f4g5";
+const char* ssid = "Sua rede";
+const char* password = "Sua senha";
 
 // Inicializando o AlleborgoBot
-String BOTtoken = "2140309502:AAFoIXteOzmJbcXcBZMkIckTMGeq91Lv3f8";  // Bot Token Obtido atraves do Bot Father no telegram
+String BOTtoken = "Your Bot Token";  // Bot Token Obtido atraves do Bot Father no telegram
 
 // Usando @myidbot para descobrir o ID do bate-papo de um indivíduo ou grupo
 // Inicializando meu ID da conversa
-String CHAT_ID = "1760314752";
+String CHAT_ID = "Seu id de chat";
 
 // Inicializa o marcador para o envio da fot
 bool sendPhoto = false;
